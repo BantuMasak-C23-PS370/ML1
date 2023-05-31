@@ -38,14 +38,17 @@ For food classification, users can either upload or scan existing food images fr
 │   │       ├── soto-ayam-lamongan
 │   │       └── soto-banjar 
 │   └── Recommandation System
-│       ├── filekotor.csv
-│       └── filebersih.csv
+│       ├── ***.csv (Dirty Dataset For RS Based on Input)
+│       ├── ***.csv (Clean Dataset For RS Based on Input)
+│       ├── recipe_dataset.csv
+│       └── user_rating.csv
 └── Model
     ├── Image Classification
-    │   └── fileclassification.ipnyb
+    │   └── FirstTF.ipnyb
     └── Recommendation System
-        ├── filerecommendation_opsi1.ipnyb
-        └── filerecommendation_opsi2.ipnyb
+        ├── RecommendationSystem_Opsi1_ForYou.ipnyb
+        ├── RecommendationSystem_Opsi2_ForYou.ipnyb
+        └── RecommendationSystem_Opsi3_BasedonInput.ipnyb
 ```
 
 ## Datasets
