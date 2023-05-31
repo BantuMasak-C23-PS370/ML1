@@ -1,8 +1,11 @@
 # BantuMasak App
 
-We create a Tensorflow model to predict the fresh and rotten fruits. By doing so, we hope we can easily separate fresh and rotten fruits from fruit images. (INI BELUM DIJELASIN)
+BantuMasak is an application designed to assist users, particularly housewives, in creating a well-organized plan for the meals they want to prepare over several days. Our team has developed various features to simplify the process of meal planning. 
+On the machine learning side, we have built two types of models: a recommendation system and an image classification system. 
+Our recommendation system includes two types. First, it provides recipe recommendations by calculating ratings. Second, it suggests menus based on the user's input, specifically the ingredients they have on hand. 
+For food classification, users can either upload or scan existing food images from their phones. The application will then predict the name of the food and provide detailed information such as ingredients and complete recipes.
 
-## Project Structure
+## Project Structure (ML)
 ```bash
 .
 ├── README.md
@@ -46,25 +49,18 @@ We create a Tensorflow model to predict the fresh and rotten fruits. By doing so
 ```
 
 ## Datasets
-For the Food Classification dataset (image) I got it by scraping data on Google Image, each class has 50 images, so total is 1250 (split into 80:20 for train:test). And, for system recommendations I get from scraping data on the cookpad.com website.
-
+We collected the datasets for both the recommendation system and food classification by scraping. For food classification, we scraped images from Google Images, resulting in a dataset with 25 food labels, each containing 50 images. 
+On the other hand, for the recommendation system, we scraped data from the cookpad.com website. The dataset includes 800 different recipes, each with the food's title, ingredients, step-by-step instructions for making the dish, and the corresponding image URL.
 
 
 ## Network
-For this model, we use Convolutional Neural Networks. Our model used transfer learning InceptionV3 for the baseline model with 6 classes (Fresh and Rotten banana, apple, and orange). We also using VGG16 for the improved model with 2 classes (Fresh and Rotten Fruit) as our final model. (INI MASIH BINGUNG)
-
-## Prequisites
-You don't need to install anything since its written in Google Colab which is a cloud service
-- Copy this repository link into the collab https://github.com/Bangkit-JKT2-D/fruits-fresh-rotten-classification/blob/master/fresh-rotten-fruits-improve.ipynb
-- After succesfully open the notebook, create cookies.txt for downloading the dataset from kaggle
-- First of all, With the assumption of using Google Chrome, download extension [cookies.txt](https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg)
-- Open the kaggle link dataset [fruit-rotten-dataset](https://www.kaggle.com/sriramr/fruits-fresh-and-rotten-for-classification) then on your right top corner of browser, choose the cookies.txt.
-- download the cookies.txt.
-- upload the cookies.txt on the notebook as what required
+For the food classification model, we utilized transfer learning with the ResNet50 architecture. We also incorporated Convolutional Neural Networks (CNNs) into the model, specifically modified for the 25 food labels.
+In the case of the recommendation system, we developed two types. The first type, "Recommendation for You," involves calculating ratings and creating an embedding layer to provide suitable recipes for the user. 
+The second type of recommendation system is based on user input. We tokenize the ingredients and create an embedding layer to suggest appropriate recipes based on the available ingredients provided by the user.
 
 ## Built With
-* [Tensorflow Keras](https://www.tensrflow.org) - The AI framework used
+* [Tensorflow Keras](https://www.tensorflow.org) - The AI framework used
 
 ## Authors
 * **Jihan Kamilah**  - [jihanKamilah](https://github.com/jihanKamilah)
-* **Santiana**       - [santiana](https://github.com/...)
+* **Santiana**       - [santiana1922](https://github.com/Santiana1922)
