@@ -6,49 +6,53 @@ Our recommendation system includes two types. First, it provides recipe recommen
 For food classification, users can either upload or scan existing food images from their phones. The application will then predict the name of the food and provide detailed information such as ingredients and complete recipes.
 
 ## Project Structure (ML)
+For Mid Checkpoint
 ```bash
 .
 ├── README.md
-├── datasets
-│   ├── Image Classification
-│   │   └── dataset-food-selected
-│   │       ├── asinan-jakarta
-│   │       ├── ayam-bumbu-rujak
-│   │       ├── ayam-goreng-lengkuas
-│   │       ├── bika-ambon
-│   │       ├── cendol
-│   │       ├── es-dawet
-│   │       ├── gado-gado
-│   │       ├── gulai-ikan-asin
-│   │       ├── kerak-telor
-│   │       ├── klapertart
-│   │       ├── kolak
-│   │       ├── kue-lumpur
-│   │       ├── kunyit-asam
-│   │       ├── laksa-bogor
-│   │       ├── lumpia-semarang
-│   │       ├── mie-aceh
-│   │       ├── nagasari
-│   │       ├── papeda
-│   │       ├── rendang
-│   │       ├── rujak-cingur
-│   │       ├── sate-ayam-madura
-│   │       ├── sate-meranggi
-│   │       ├── serabi
-│   │       ├── soto-ayam-lamongan
-│   │       └── soto-banjar 
-│   └── Recommandation System
-│       ├── ***.csv (Dirty Dataset For RS Based on Input)
-│       ├── ***.csv (Clean Dataset For RS Based on Input)
-│       ├── recipe_dataset.csv
-│       └── user_rating.csv
-└── Model
-    ├── Image Classification
-    │   └── FirstTF.ipnyb
-    └── Recommendation System
-        ├── RecommendationSystem_Opsi1_ForYou.ipnyb
-        ├── RecommendationSystem_Opsi2_ForYou.ipnyb
-        └── RecommendationSystem_Opsi3_BasedonInput.ipnyb
+├── Mid Checkpoint
+│   ├── datasets
+│   │   ├── Image Classification
+│   │   |   └── dataset-food-selected
+│   │   |       ├── asinan-jakarta
+│   │   |       ├── ayam-bumbu-rujak
+│   │   |       ├── ayam-goreng-lengkuas
+│   │   |       ├── bika-ambon
+│   │   |       ├── cendol
+│   │   |       ├── es-dawet
+│   │   |       ├── gado-gado
+│   │   |       ├── gulai-ikan-asin
+│   │   |       ├── kerak-telor
+│   │   |       ├── klapertart
+│   │   |       ├── kolak
+│   │   |       ├── kue-lumpur
+│   │   |       ├── kunyit-asam
+│   │   |       ├── laksa-bogor
+│   │   |       ├── lumpia-semarang
+│   │   |       ├── mie-aceh
+│   │   |       ├── nagasari
+│   │   |       ├── papeda
+│   │   |       ├── rendang
+│   │   |       ├── rujak-cingur
+│   │   |       ├── sate-ayam-madura
+│   │   |       ├── sate-meranggi
+│   │   |       ├── serabi
+│   │   |       ├── soto-ayam-lamongan
+│   │   |       └── soto-banjar 
+│   |   └── Recommandation System
+│   |       ├── preprocessed_dataset.csv (Clean Dataset For RS Based on Input)
+│   |       ├── Preprocessing_Dataset_BasedonInput.ipnyb (Code For Preprocessing Data)
+│   |       └── recipes_dataset.csv (Dirty Dataset For RS Based on Input)
+|   └── Model
+|       ├── Image Classification
+|       │   └── FirstTF.ipnyb
+|       └── Recommendation System
+|           ├── RecommendationSystem_Opsi1_ForYou.ipnyb
+|           ├── RecommendationSystem_Opsi2_ForYou.ipnyb
+|           └── RecommendationSystem_Opsi3_BasedonInput.ipnyb
+└── Final Deliverables
+    ├── ...
+    ...
 ```
 
 ## Datasets
