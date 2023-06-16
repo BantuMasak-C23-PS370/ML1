@@ -54,3 +54,7 @@ BantuMasak: Your Personal Meal Planner and Recipe Assistant</h2>
   </ol>
 </details>
 
+## About the project
+According to the Berkeley Food Network (BFN), household food waste in Indonesia is one of the most significant issues, with an average of 9.4 grams per capita per day in households with a middle-income level. We are concerned about those issues and aim to assist housewives in implementing zero-waste cooking, which involves leaving no waste behind while preparing a meal. Our objective is to encourage housewives to plan their meals systematically with the appropriate portion of ingredients. To achieve this, we develop an app that will help housewives plan their meals for several days by selecting suitable menus and recommending recipes.
+
+## App overview
