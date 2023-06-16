@@ -110,5 +110,5 @@ The second type of recommendation system is based on user input. We tokenize the
 ## Authors
 |          Nama         | Bangkit-ID |       Path       |       Contact       |
 |:---------------------:|:----------:|:----------------:|:-------------------:|
-|  [Jihan Kamilah](https://github.com/jihanKamilah)  |  M304DSY2993  | Machine Learning | <a href="[[https://www.linkedin.com/in/fransiskus-ricardo-69ba71109/](https://www.linkedin.com/in/jihan-kamilah/)](https://www.linkedin.com/in/jihan-kamilah/)"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> |
-|  [Santiana](https://github.com/Santiana1922)  |  M304DSY2487  | Machine Learning | <a href="[[https://www.linkedin.com/in/fransiskus-ricardo-69ba71109/](https://www.linkedin.com/in/santiana/)]([https://www.linkedin.com/in/jihan-kamilah/](https://www.linkedin.com/in/santiana/))"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> |
+|  [Jihan Kamilah](https://github.com/jihanKamilah)  |  M304DSY2993  | Machine Learning | <a href="https://www.linkedin.com/in/jihan-kamilah/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> |
+|  [Santiana](https://github.com/Santiana1922)  |  M304DSY2487  | Machine Learning | <a href="https://www.linkedin.com/in/santiana/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> |
